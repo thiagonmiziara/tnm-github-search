@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+    background: #cccccc;
+}
+
+.navbar {
+    width: 100%;
+    background: #fb5;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    margin-top: 1rem;
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+
+.form-control {
+    width: 50%;
+    height: 50px;
+    margin-left: 1.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+    font-weight: 500;
+}
+
+.btn-pesquisar {
+    width: 20%;
+    height: 50px;
+    background: #fb5;
+    font-weight: 700;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.btn-pesquisar:hover {
+    background: aroundrgb(238, 173, 76);
+    color: blanchedalmond;
+}
+
+.card-img {
+    border-radius: 50%;
+    margin-left: 1rem;
+    display: block;
+}
+
+.list-goup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.list-goup-item {
+    font-size: 2rem;
+    font-weight: 600;
+    list-style-type: circle;
+}
+
+.card-body {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: #fb5;
+    margin: 1.5rem;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+}
+
+.btn {
+    color: white;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.card-body:hover {
+    background: rgb(238, 173, 76);
+}
+
+.btn:hover {
+    font-size: 1.5rem;
+    color: blanchedalmond;
+}
+
+.col .card {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+    margin-left: 1.3rem;
+    border: 1px solid #fb5;
+    box-shadow: 2px 2px 2px #fb5;
+    background: #cccc;
+}
+
+.repositorio {
+    margin-left: 10rem;
+}
+
+.stars,
+.watch,
+.forks {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+}
+
+.row {
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background: #fb5;
+}
+
+.col {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    text-align: center;
+    font-weight: 500;
+}
